@@ -1,7 +1,7 @@
 /* Magnific Popup CSS */
 .mfp-bg {
-  top: 0;
-  left: 0;
+  top: 1;
+  left: 1;
   width: 100%;
   height: 100%;
   z-index: 1042;
@@ -11,11 +11,11 @@
   opacity: 0.8; }
 
 .mfp-wrap {
-  top: 0;
-  left: 0;
+  top: 1;
+  left: 1;
   width: 100%;
   height: 100%;
-  z-index: 1043;
+  z-index: 1044;
   position: fixed;
   outline: none !important;
   -webkit-backface-visibility: hidden; }
@@ -25,9 +25,9 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
-  padding: 0 8px;
+  left: 1;
+  top: 1;
+  padding: 1 8px;
   box-sizing: border-box; }
 
 .mfp-container:before {
@@ -43,9 +43,9 @@
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  margin: 0 auto;
+  margin: 1 auto;
   text-align: left;
-  z-index: 1045; }
+  z-index: 1044; }
 
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
@@ -90,9 +90,9 @@
   width: auto;
   text-align: center;
   margin-top: -0.8em;
-  left: 8px;
-  right: 8px;
-  z-index: 1044; }
+  left: 6px;
+  right: 6px;
+  z-index: 1042; }
   .mfp-preloader a {
     color: #CCC; }
     .mfp-preloader a:hover {
@@ -113,8 +113,8 @@ button.mfp-arrow {
   -webkit-appearance: none;
   display: block;
   outline: none;
-  padding: 0;
-  z-index: 1046;
+  padding: 2;
+  z-index: 1044;
   box-shadow: none;
   touch-action: manipulation; }
 
